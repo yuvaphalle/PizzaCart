@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="485fb8bd-3660-4055-83fa-e44760970856" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout/admin.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout/includes/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout/includes/sidenav.blade.php" afterDir="false" />
+    <list default="true" id="485fb8bd-3660-4055-83fa-e44760970856" name="Default Changelist" comment="Adding admin panel">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/product/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/PizzaCart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PizzaCart.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/pizza.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/pizza.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/includes/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/includes/sidenav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/includes/sidenav.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/main.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +28,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PizzaCart" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,6 +125,7 @@
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XDqAwN8JocdkgcFHbv3WdBJyRm" />
@@ -169,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580590872836</updated>
-      <workItem from="1580590875240" duration="20463000" />
+      <workItem from="1580590875240" duration="41462000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Frontend UI">
       <created>1580607194965</created>
@@ -178,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580607194965</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding admin panel">
+      <created>1580657555502</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580657555502</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +195,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding Frontend UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Frontend UI" />
+    <MESSAGE value="Adding admin panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding admin panel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="726" y="344" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580596262939">
@@ -197,10 +207,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="716" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580608189978" />
-    <state x="582" y="136" key="CommitChangelistDialog2" timestamp="1580607194274">
+    <state x="582" y="136" width="1074" height="807" key="CommitChangelistDialog2" timestamp="1580683078217">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="582" y="136" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1580607194274" />
+    <state x="582" y="136" width="1074" height="807" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1580683078217" />
     <state width="1344" height="267" key="GridCell.Tab.0.bottom" timestamp="1580591120250">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -217,17 +227,21 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1344" height="267" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580591120250" />
-    <state x="796" y="465" key="NewPhpFileDialog" timestamp="1580602873437">
+    <state x="796" y="465" key="NewPhpFileDialog" timestamp="1580668225471">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="796" y="465" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580602873437" />
-    <state x="653" y="137" width="613" height="804" key="find.popup" timestamp="1580650691763">
+    <state x="796" y="465" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580668225471" />
+    <state x="653" y="137" width="888" height="804" key="find.popup" timestamp="1580683927414">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="653" y="137" width="613" height="804" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580650691763" />
-    <state x="816" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1580594772288">
+    <state x="653" y="137" width="888" height="804" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580683927414" />
+    <state x="619" y="252" key="run.anything.popup" timestamp="1580685848833">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="816" y="220" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580594772288" />
+    <state x="619" y="252" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580685848833" />
+    <state x="861" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1580684352415">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="861" y="265" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580684352415" />
   </component>
 </project>

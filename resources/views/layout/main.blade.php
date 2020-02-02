@@ -51,24 +51,7 @@
 </div>
 @yield('content')
 <footer class="footer">
-    <div class="row full-width">
-        <div class="small-12 medium-4 large-4 columns">
-            <i class="fi-laptop"></i>
-            <p>Yuva</p>
-        </div>
-        <div class="small-12 medium-4 large-4 columns">
-            <i class="fi-html5"></i>
-            <p>...</p>
 
-        <div class="small-6 medium-4 large-4 columns">
-            <h4>Follow Us</h4>
-            <ul class="footer-links">
-                <li><a href="https://github.com/yuvaphalle">GitHub</a></li>
-                <li><a href="https://fb.com/add.yuva">Facebook</a></li>
-                <li><a href="https://twitter.com/iamtheyuva">Twitter</a></li>
-                <ul>
-        </div>
-    </div>
 </footer>
 
 <script src="{{asset('dist/js/vendor/jquery.js')}}"></script>

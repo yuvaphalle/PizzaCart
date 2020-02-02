@@ -57,9 +57,17 @@
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="{{route('admin.index')}}">Dashboard</a>
-    <a href="{{route('admin.index')}}">Add Products</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+
+    <li class="submenu">
+        <a href="#">
+            <i class="glyphicon glyphicon-list"></i> Products
+            <span class="caret pull-right"></span>
+        </a>
+        <!-- Sub menu -->
+        <ul>
+            <li><a href="{{route('admin.index')}}">Add Product</a></li>
+        </ul>
+    </li>
 </div>
 
 <div id="main">

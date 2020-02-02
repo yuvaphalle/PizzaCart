@@ -19,15 +19,19 @@
                 <div  role="banner">
                     <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
                         <ul class="nav navbar-nav">
-                            <li class="dropdown">
+                            <li>
+                                <style>
+                                    b.uppercase {
+                                        text-transform: uppercase;
+                                        color: #3adb76;
+                                    }
+                                    </style>
+                                <a  class="navbar-brand" data-toggle="dropdown"><b class="uppercase">{{Auth::user()->name}} </b></a>
 
-                                <a href="{{url('/')}}" class="navbar-brand" data-toggle="dropdown">My Site <b
-                                            class="caret"></b></a>
 
-
-                                <ul class="dropdown-menu animated fadeInUp">
-                                    <li><a class="navbar-brand" href="{{url('/')}}">Home Page</a></li>
-                                    <li><a class="navbar-brand" href="{{url('/logout')}}">Logout</a></li>
+                                <ul class="nav navbar-nav">
+                                    <li class="is-dropdown-menu="><a class="" href="{{url('/')}}">Home Page</a></li>
+                                    <li class="is-dropdown-menu"><a class="navbar-brand" href="{{url('/logout')}}">Logout</a></li>
                                 </ul>
                             </li>
                         </ul>
