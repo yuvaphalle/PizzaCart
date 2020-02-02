@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/','HomeController@index')->name('home');
+Route::get('/pizzas','HomeController@pizzas')->name('pizzas');
+Route::get('/pizza','HomeController@pizza')->name('pizza');
+
