@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485fb8bd-3660-4055-83fa-e44760970856" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/pizza.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/pizzas.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layout/main.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout/admin.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout/includes/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout/includes/sidenav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PizzaCart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PizzaCart.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/pizza.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/pizza.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/main.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +123,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XDqAwN8JocdkgcFHbv3WdBJyRm" />
@@ -126,11 +137,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/front" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PizzaCart\PizzaCart\resources\views" />
       <recent name="C:\xampp\htdocs\PizzaCart\PizzaCart\resources\views\front" />
       <recent name="C:\xampp\htdocs\PizzaCart\PizzaCart\resources" />
     </key>
@@ -157,18 +169,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580590872836</updated>
-      <workItem from="1580590875240" duration="12636000" />
+      <workItem from="1580590875240" duration="20463000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding Frontend UI">
+      <created>1580607194965</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580607194965</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding Frontend UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Frontend UI" />
   </component>
   <component name="WindowStateProjectService">
     <state x="726" y="344" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580596262939">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="726" y="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1580596262939" />
+    <state x="716" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580608189978">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="716" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580608189978" />
+    <state x="582" y="136" key="CommitChangelistDialog2" timestamp="1580607194274">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="582" y="136" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1580607194274" />
     <state width="1344" height="267" key="GridCell.Tab.0.bottom" timestamp="1580591120250">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -189,6 +221,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="796" y="465" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580602873437" />
+    <state x="653" y="137" width="613" height="804" key="find.popup" timestamp="1580650691763">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="653" y="137" width="613" height="804" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580650691763" />
     <state x="816" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1580594772288">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
