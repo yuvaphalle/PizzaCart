@@ -31,7 +31,7 @@
 
                     <div class="form-group ">
                         {{ Form::label('category_id', 'Categories') }}
-                        {{ Form::select('category_id', $errors, null, ['class' => 'form-control','placeholder'=>'Select Category', ]) }}
+                        {{ Form::select('category_id', [ 'pizza' => 'Pizza'], null, ['class' => 'form-control','placeholder'=>'Select Category']) }}
                     </div>
 
                     <div class="form-group ">
@@ -41,7 +41,7 @@
 
                     <div class="form-group ">
                         {{ Form::label('price', 'Price in $') }}
-                        {{ Form::number('Price in $', null, array('class' => 'form-control','step' => '0.1', 'min' => '0', 'required' => 'true',)) }}
+                        {{ Form::number('price', null, array('class' => 'form-control','step' => '0.1', 'min' => '0', 'required' => 'true',)) }}
                     </div>
 
                     {{ Form::submit('Create', array('class' => 'btn btn-primary')) }}

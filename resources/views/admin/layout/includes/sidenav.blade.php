@@ -66,6 +66,8 @@
         <!-- Sub menu -->
         <ul>
             <li><a href="{{route('admin.index')}}">Add Product</a></li>
+            <li><a href="{{route('product.index')}}">Products</a></li>
+
         </ul>
     </li>
 </div>
