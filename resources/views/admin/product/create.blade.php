@@ -4,11 +4,14 @@
 
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-
+<center>
     <div class="container align-self-center">
         <div class="row justify-content-center">
             <div class="col-md-10">
+                <div class="jumbotron">
+
                 <div class="card" style="width: 30rem; ">
+
                     <div class="card-header">{{ __('Add Product') }}</div>
 
                     <div class="card-body align-self-center">
@@ -31,7 +34,7 @@
 
                     <div class="form-group ">
                         {{ Form::label('category_id', 'Categories') }}
-                        {{ Form::select('category_id', [ 'pizza' => 'Pizza'], null, ['class' => 'form-control','placeholder'=>'Select Category']) }}
+                        {{ Form::select('category_id',$categories, null, ['class' => 'form-control','placeholder'=>'Select Category']) }}
                     </div>
 
                     <div class="form-group ">
@@ -48,8 +51,12 @@
                     {!! Form::close() !!}
                 </div>
             </div>
+                </div>
         </div>
         </div>
     </div>
+
+
+
 
 @endsection

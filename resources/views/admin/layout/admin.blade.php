@@ -2,9 +2,8 @@
 <html>
 <head>
     <title>Admin Panel</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{asset('css/admin.css')}}">
 </head>
 <body>
 @include('admin.layout.includes.header')
@@ -21,12 +20,13 @@
             <div class="row text-center">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="content-box-large">
-                        @yield('content')
                     </div>
                 </div>
+
             </div>
         </div><!--/Display area after sidenav-->
     </div>
+        @yield('content')
 
 </div><!--/Page Content-->
 
@@ -51,6 +51,8 @@
         });
     });
 </script>
+
+
 
 </body>
 </html>

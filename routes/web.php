@@ -14,7 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('','FrontController@index')->name('home');
+Route::get('/home','FrontController@index')->name('home');
 Route::get('/pizzas','FrontController@pizzas')->name('pizzas');
 Route::get('/pizza','FrontController@pizza')->name('pizza');
 
@@ -22,7 +22,9 @@ Route::get('/pizza','FrontController@pizza')->name('pizza');
 Auth::routes();
 Route::get('/logout', 'Auth\LoginController@logout');
 Route::get('/admin', 'Auth\LoginController@admin');
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
+Route::resource('/cart', 'cartController');
+
 Route::group(['prefix' =>'admin','middleware'=>'auth'], function (){
    Route::get('/',function(){
        return view('admin.index');

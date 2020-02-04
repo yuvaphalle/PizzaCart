@@ -16,28 +16,28 @@
             left: 0;
             background-color: #111;
             overflow-x: hidden;
-            transition: 0.5s;
+            transition: 0.4s;
             padding-top: 60px;
         }
 
         .sidenav a {
             padding: 8px 8px 8px 32px;
             text-decoration: none;
-            font-size: 25px;
+            font-size: 22px;
             color: #818181;
             display: block;
             transition: 0.3s;
         }
 
         .sidenav a:hover {
-            color: #f1f1f1;
+            color: #f1bb52;
         }
 
         .sidenav .closebtn {
             position: absolute;
             top: 0;
             right: 25px;
-            font-size: 36px;
+            font-size: 50px;
             margin-left: 50px;
         }
 
@@ -56,7 +56,7 @@
 
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="{{route('admin.index')}}">Dashboard</a>
+    <li class="is-dropdown-menu="><a class="" href="{{url('/')}}">Home Page</a></li>
 
     <li class="submenu">
         <a href="#">
@@ -65,12 +65,44 @@
         </a>
         <!-- Sub menu -->
         <ul>
-            <li><a href="{{route('admin.index')}}">Add Product</a></li>
+            <li><a href="{{route('product.create')}}">Add Product</a></li>
             <li><a href="{{route('product.index')}}">Products</a></li>
 
         </ul>
     </li>
+    <li class="submenu">
+        <a href="#">
+            <i class="glyphicon glyphicon-list"></i> Category
+            <span class="caret pull-right"></span>
+        </a>
+
+    <ul>
+        <li><a href="{{route('category.index')}}">Add Category</a></li>
+    </ul>
+    </li>
+    <li class="submenu">
+        <a href="#">
+            <i class="glyphicon glyphicon-list"></i> Orders
+            <span class="caret pull-right"></span>
+        </a>
+        <!-- Sub menu -->
+        <ul>
+            <li><a href="{{url('admin/orders/pending')}}">Pending Orders</a></li>
+            <li><a href="{{url('admin/orders/delivered')}}">Delivered Orders</a></li>
+            <li><a href="{{url('admin/orders')}}">All Orders</a></li>
+        </ul>
+    </li>
+
+    <li class="">
+        <a class="navbar-brand" href="{{url('/logout')}}">
+            <i class="fa fa-sign-out" ></i>
+
+            <font color="red"> LogOut</font>
+        </a></li>
+
 </div>
+
+
 
 <div id="main">
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>

@@ -5,21 +5,22 @@
 
 
 
-<div class="header">
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
-            <div class="col-md-5">
+            <div class="col-md-10">
                 <!-- Logo -->
+
+
                 <div class="logo">
-                    <h1><a  class="" href="{{route('admin.index')}}">Admin Panel</a></h1>
+                    <h1><a  href="{{route('admin.index')}}"><font color="#b8860b" size="10">Admin Panel</font></a></h1>
                 </div>
             </div>
 
-            <div class="col-md-2 pull-right">
-                <div  role="banner">
-                    <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
-                        <ul class="nav navbar-nav">
-                            <li>
+            <div class="col-md-2 ">
+                <div  role="">
+                    <nav  role="navigation">
+                        <ul class="">
+
                                 <style>
                                     b.uppercase {
                                         text-transform: uppercase;
@@ -29,15 +30,9 @@
                                 <a  class="navbar-brand" data-toggle="dropdown"><b class="uppercase">{{Auth::user()->name}} </b></a>
 
 
-                                <ul class="nav navbar-nav">
-                                    <li class="is-dropdown-menu="><a class="" href="{{url('/')}}">Home Page</a></li>
-                                    <li class="is-dropdown-menu"><a class="navbar-brand" href="{{url('/logout')}}">Logout</a></li>
-                                </ul>
-                            </li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </div>
     </nav>
-</div>

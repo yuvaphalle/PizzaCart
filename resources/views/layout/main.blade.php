@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="{{asset("dist/css/foundation.css")}}"/>
     <link rel="stylesheet" href="{{asset("dist/css/foundation.css")}}"/>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
 
 
 </head>
@@ -17,7 +16,7 @@
 
 <div  class="top-bar">
     <div style="color:white" class="top-bar-left">
-        <h4 class="brand-title">
+        <h4 >
             <a href="{{route('home')}}">
                 <img src="{{URL::asset('./images/logo.png')}}" alt="profile Pic" height="20" width="50">
                 PizzaZone
@@ -37,12 +36,12 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="{{route('cart.index')}}">
                     <i class="fa fa-shopping-cart fa-2x" aria-hidden="true">
                     </i>
                     CART
                     <span class="alert badge">
-                                8
+                                {{Cart::count()}}
                             </span>
                 </a>
             </li>
