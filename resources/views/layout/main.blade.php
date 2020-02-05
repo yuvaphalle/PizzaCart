@@ -45,6 +45,49 @@
                             </span>
                 </a>
             </li>
+            <li>
+                @unless(Auth::check())
+                <a href="{{route('login')}}">
+                    <i class="fa fa-sign-in" aria-hidden="true">
+                    </i>
+                  <b>  <font color="#b8860b" >LogIn</font></b>
+
+                </a>
+
+            @endunless
+            </li>
+
+
+
+            @if (Auth::check())
+                <li class="">
+
+
+                        <font color="#b8860b"  size="5">
+                            <b> <i class="fa fa-user-circle-o"> {{Auth::user()->name}}</i></b>
+                            &nbsp;</font>
+
+                    </a></li>
+            @endif
+
+
+            @if (Auth::check())
+                <li class="">
+
+                <a class="navbar-brand" href="{{url('/logout')}}">
+
+                    <font color="#b8860b"  size="5">
+                        </font>
+                    <i class="fa fa-sign-out" ></i>
+                    <font color="red"> LogOut</font>
+                </a></li>
+            @endif
+
+
+
+
+
+
         </ol>
     </div>
 </div>

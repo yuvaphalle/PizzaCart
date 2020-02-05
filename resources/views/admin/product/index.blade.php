@@ -1,34 +1,44 @@
 @extends('admin.layout.admin')
 
 @section('content')
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
+    <h3>Products</h3>
 
-
-    <div class="container align-self-center">
-        <div class="row justify-content-center">
-            <div class="col-md-10">
-                <h3>Products</h3>
-
-                <div class="jumbotron">
-
-                    <ul class="container">
+    <ul class="container">
         @forelse($products as $product)
             <li class="row">
 
 
                 <div class="col-md-8">
                     <h4>Name of product:{{$product->name}}</h4>
-    @empty
+                    <h4>Category:{{$product->category_id}}</h4>
+
+                    <a href="{{route('product.edit',$product->id)}}" class="btn btn-primary btn-sm ">Edit Product</a>
+                    <br>
+
+                    <form action="{{route('product.destroy',$product->id)}}"  method="POST">
+                        {{csrf_field()}}
+                        {{method_field('DELETE')}}
+                        <input class="btn btn-sm btn-danger" type="submit" value="Delete">
+                    </form>
+
+                    <div class="col-md-4">
+
+                        <form action="/admin/product/image-upload/{{$product->id}}" method="POST" class="dropzone" id="my-awesome-dropzone-{{$product->id}}">
+                            {{csrf_field()}}
+
+                        </form>
+
+                    </div>
+
+            </li>
+
+        @empty
+
             <h3>No products</h3>
 
-                </div>
         @endforelse
     </ul>
 
-                </div>
-            </div>
-        </div>
-    </div>
 
 @endsection

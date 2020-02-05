@@ -14,18 +14,18 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/home','FrontController@index')->name('home');
+Route::get('/','FrontController@index')->name('home');
 Route::get('/pizzas','FrontController@pizzas')->name('pizzas');
 Route::get('/pizza','FrontController@pizza')->name('pizza');
 
 
 Auth::routes();
 Route::get('/logout', 'Auth\LoginController@logout');
-Route::get('/admin', 'Auth\LoginController@admin');
-Route::get('/', 'HomeController@index')->name('home');
+ Route::get('home', 'HomeController@index');
 Route::resource('/cart', 'cartController');
 
-Route::group(['prefix' =>'admin','middleware'=>'auth'], function (){
+
+Route::group(['prefix' =>'admin','middleware'=>['auth','admin']], function (){
    Route::get('/',function(){
        return view('admin.index');
     })->name('admin.index');
@@ -34,3 +34,7 @@ Route::group(['prefix' =>'admin','middleware'=>'auth'], function (){
     Route::resource('category','CategoriesController');
 
 });
+
+Route::get('checkout','checkoutcontroller@step1');
+Route::get('shipping-info','CheckoutController@shipping')->name('checkout.shipping');
+Route::resource('/address','AddressController');

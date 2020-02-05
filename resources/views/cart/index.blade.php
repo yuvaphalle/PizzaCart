@@ -61,7 +61,7 @@
             </tr>
             </tbody>
         </table>
-
+        <a href="{{url('/checkout')}}" class="button">Checkout</a>
     </div>
 
 
