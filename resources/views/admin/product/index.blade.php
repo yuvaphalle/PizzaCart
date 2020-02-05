@@ -12,9 +12,10 @@
                 <div class="col-md-8">
                     <h4>Name of product:{{$product->name}}</h4>
                     <h4>Category:{{$product->category_id}}</h4>
+                    <img src="{{url('images',$product->image)}}" alt="profile Pic" height="100" width="100">
 
                     <a href="{{route('product.edit',$product->id)}}" class="btn btn-primary btn-sm ">Edit Product</a>
-                    <br>
+
 
                     <form action="{{route('product.destroy',$product->id)}}"  method="POST">
                         {{csrf_field()}}

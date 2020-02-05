@@ -14,8 +14,19 @@ class ExampleTest extends TestCase
      */
     public function testBasicTest()
     {
-        $response = $this->get('/');
+        $response = $this->get('/login');
 
-        $response->assertStatus(200);
+        $user = factory(User::class)->create([
+            'password' => bcrypt($password = 'i-love-laravel'),
+        ]);
+
+        $response = $this->post('/login', [
+            'email' => $user->email,
+            'password' => $password,
+        ]);
+
+        $response->assertRedirect('/home');
+        $this->assertAuthenticatedAs($user);
+
     }
 }

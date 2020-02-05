@@ -26,6 +26,7 @@ class HomeController extends Controller
     {
         $pizzas=Product::all();
 
+
         return view('home',compact('pizzas'));
     }
     public function pizzas()
@@ -36,3 +37,5 @@ class HomeController extends Controller
     }
 
 }
+
+

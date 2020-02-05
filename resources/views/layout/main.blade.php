@@ -31,11 +31,6 @@
                 </a>
             </li>
             <li>
-                <a href="#">
-                    CONTACT
-                </a>
-            </li>
-            <li>
                 <a href="{{route('cart.index')}}">
                     <i class="fa fa-shopping-cart fa-2x" aria-hidden="true">
                     </i>

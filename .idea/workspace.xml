@@ -4,10 +4,18 @@
     <list default="true" id="485fb8bd-3660-4055-83fa-e44760970856" name="Default Changelist" comment="Adding &quot;bumbummen99/shoppingcart &quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AddressController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AddressController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/product/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cart/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cart/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,11 +153,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ecom-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/product" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PizzaCart\PizzaCart\resources\views\admin\product" />
       <recent name="C:\xampp\htdocs\PizzaCart\PizzaCart\resources\views\front" />
       <recent name="C:\xampp\htdocs\PizzaCart\PizzaCart\app\Http\Controllers" />
       <recent name="C:\xampp\htdocs\PizzaCart\PizzaCart\resources\views" />
@@ -179,7 +189,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580590872836</updated>
-      <workItem from="1580590875240" duration="127106000" />
+      <workItem from="1580590875240" duration="146837000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Frontend UI">
       <created>1580607194965</created>
@@ -247,10 +257,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="716" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580608189978" />
-    <state x="691" y="296" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1580781906903">
+    <state x="691" y="296" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1580907784561">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="691" y="296" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580781906903" />
+    <state x="691" y="296" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580907784561" />
+    <state x="708" y="388" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580908755536">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="708" y="388" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1080@0.0.1920.1080" timestamp="1580908755536" />
     <state x="582" y="136" width="1074" height="807" key="CommitChangelistDialog2" timestamp="1580864485699">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -279,26 +293,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="677" y="356" key="NewPhpClassDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580687077020" />
-    <state x="796" y="465" key="NewPhpFileDialog" timestamp="1580779695339">
+    <state x="796" y="465" key="NewPhpFileDialog" timestamp="1580889584580">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="796" y="465" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580779695339" />
+    <state x="796" y="465" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580889584580" />
     <state width="523" height="446" key="SwitcherDM" timestamp="1580860718830">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="523" height="446" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1580860718830" />
-    <state x="653" y="137" width="888" height="804" key="find.popup" timestamp="1580873472514">
+    <state x="653" y="137" width="888" height="804" key="find.popup" timestamp="1580910019592">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="653" y="137" width="888" height="804" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580873472514" />
+    <state x="653" y="137" width="888" height="804" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580910019592" />
     <state x="619" y="252" key="run.anything.popup" timestamp="1580685848833">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="619" y="252" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580685848833" />
-    <state x="997" y="401" width="672" height="678" key="search.everywhere.popup" timestamp="1580873476036">
+    <state x="1045" y="449" width="672" height="678" key="search.everywhere.popup" timestamp="1580910765807">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="997" y="401" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580873476036" />
+    <state x="1045" y="449" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580910765807" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

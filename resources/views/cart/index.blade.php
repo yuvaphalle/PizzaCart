@@ -16,10 +16,14 @@
             </tr>
             </thead>
             <tbody>
+
+
             @foreach($cartItems as $cartItem)
                 <tr>
                     <td>{{$cartItem->name}}</td>
                     <td>{{$cartItem->price}}</td>
+
+
                     <td width="50px">
                         {!! Form::open(['route' => ['cart.update',$cartItem->rowId], 'method' => 'PUT']) !!}
                         <input name="qty" type="number" min="0" value="{{$cartItem->qty}}">

@@ -53,3 +53,14 @@ npm run watcher / php artisan serve
 composer require bumbummen99/shoppingcart
 
 ```
+
+>Test
+```javascript
+vendor\bin\phpunit --filter testBasicExample    
+vendor\bin\phpunit --filter testBasicTest 
+vendor\bin\phpunit --filter testAdmin 
+vendor\bin\phpunit --filter testRedirect
+```
+
+
+

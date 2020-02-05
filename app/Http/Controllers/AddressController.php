@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Address;
+use App\Order;
 use Gloudemans\Shoppingcart\Facades\Cart;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -47,6 +48,8 @@ class AddressController extends Controller
         ]);
 
         Auth::user()->address()->create($request->all());
+        Order::createOrder();
+
         Cart::destroy();
         return redirect()->route('pizzas');
 
