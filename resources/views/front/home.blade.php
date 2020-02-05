@@ -45,7 +45,7 @@
                                             </h3>
                                         </a>
                                         <h5>
-                                            {{$pizza->price}}
+                                            ${{$pizza->price}}
                                         </h5>
                                         <p>
                                             {{$pizza->description}}
