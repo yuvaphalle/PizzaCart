@@ -7,7 +7,7 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        <link href="httpss://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -85,14 +85,14 @@
                 </div>
 
                 <div class="links">
-                    <a href="httpss://laravel.com/docs">Docs</a>
-                    <a href="httpss://laracasts.com">Laracasts</a>
-                    <a href="httpss://laravel-news.com">News</a>
-                    <a href="httpss://blog.laravel.com">Blog</a>
-                    <a href="httpss://nova.laravel.com">Nova</a>
-                    <a href="httpss://forge.laravel.com">Forge</a>
-                    <a href="httpss://vapor.laravel.com">Vapor</a>
-                    <a href="httpss://github.com/laravel/laravel">GitHub</a>
+                    <a href="http://laravel.com/docs">Docs</a>
+                    <a href="http://laracasts.com">Laracasts</a>
+                    <a href="http://laravel-news.com">News</a>
+                    <a href="http://blog.laravel.com">Blog</a>
+                    <a href="http://nova.laravel.com">Nova</a>
+                    <a href="http://forge.laravel.com">Forge</a>
+                    <a href="http://vapor.laravel.com">Vapor</a>
+                    <a href="http://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
         </div>
