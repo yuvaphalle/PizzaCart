@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="485fb8bd-3660-4055-83fa-e44760970856" name="Default Changelist" comment="Adding &quot;bumbummen99/shoppingcart &quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580590872836</updated>
-      <workItem from="1580590875240" duration="124204000" />
+      <workItem from="1580590875240" duration="124444000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Frontend UI">
       <created>1580607194965</created>
@@ -287,10 +282,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="523" height="446" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1580860718830" />
-    <state x="653" y="137" width="888" height="804" key="find.popup" timestamp="1580872175296">
+    <state x="653" y="137" width="888" height="804" key="find.popup" timestamp="1580872442078">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="653" y="137" width="888" height="804" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580872175296" />
+    <state x="653" y="137" width="888" height="804" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580872442078" />
     <state x="619" y="252" key="run.anything.popup" timestamp="1580685848833">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

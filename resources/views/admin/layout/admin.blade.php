@@ -3,7 +3,7 @@
 <head>
     <title>Admin Panel</title>
 
-    <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" media="screen" href="httpss://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
 @include('admin.layout.includes.header')
@@ -30,8 +30,8 @@
 
 </div><!--/Page Content-->
 
-<script src="https://code.jquery.com/jquery.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="httpss://code.jquery.com/jquery.js"></script>
+<script src="httpss://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
     $(document).ready(function () {
         $(".submenu > a").click(function (e) {
