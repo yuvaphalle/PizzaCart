@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="485fb8bd-3660-4055-83fa-e44760970856" name="Default Changelist" comment="Adding &quot;bumbummen99/shoppingcart &quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/includes/header.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +175,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580590872836</updated>
-      <workItem from="1580590875240" duration="118639000" />
+      <workItem from="1580590875240" duration="121439000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Frontend UI">
       <created>1580607194965</created>
@@ -254,22 +255,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="741" y="296" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1580858624662" />
-    <state width="1344" height="267" key="GridCell.Tab.0.bottom" timestamp="1580591120250">
+    <state width="1344" height="267" key="GridCell.Tab.0.bottom" timestamp="1580869376329">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1344" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580591120250" />
-    <state width="1344" height="267" key="GridCell.Tab.0.center" timestamp="1580591120250">
+    <state width="1344" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580869376329" />
+    <state width="1344" height="267" key="GridCell.Tab.0.center" timestamp="1580869376329">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1344" height="267" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580591120250" />
-    <state width="1344" height="267" key="GridCell.Tab.0.left" timestamp="1580591120249">
+    <state width="1344" height="267" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580869376329" />
+    <state width="1344" height="267" key="GridCell.Tab.0.left" timestamp="1580869376329">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1344" height="267" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580591120249" />
-    <state width="1344" height="267" key="GridCell.Tab.0.right" timestamp="1580591120250">
+    <state width="1344" height="267" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580869376329" />
+    <state width="1344" height="267" key="GridCell.Tab.0.right" timestamp="1580869376329">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1344" height="267" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580591120250" />
+    <state width="1344" height="267" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580869376329" />
     <state x="677" y="356" key="NewPhpClassDialog" timestamp="1580687077020">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -290,10 +291,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="619" y="252" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580685848833" />
-    <state x="981" y="385" width="672" height="678" key="search.everywhere.popup" timestamp="1580860947441">
+    <state x="982" y="386" width="672" height="678" key="search.everywhere.popup" timestamp="1580868460935">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="981" y="385" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580860947441" />
+    <state x="982" y="386" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1580868460935" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

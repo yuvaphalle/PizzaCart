@@ -2,7 +2,6 @@
 <link rel="stylesheet" href="{{asset("dist/css/foundation.css")}}"/>
 <link rel="stylesheet" href="{{asset("dist/css/foundation.css")}}"/>
 <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
-<link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 
 
