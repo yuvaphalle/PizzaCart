@@ -37,7 +37,7 @@
                 </div>
             </div>
         @empty
-            <h3>No shirts</h3>
+            <h3>No Products</h3>
         @endforelse
     </div>
 @endsection
