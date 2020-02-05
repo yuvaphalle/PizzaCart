@@ -1,0 +1,24 @@
+[33mcommit e908bf8b04a1f6a77f51717a3523fc57283caf39[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: yuvaphalle <yuva.phalle@gmail.com>
+Date:   Sun Feb 2 04:33:14 2020 +0300
+
+    Adding Frontend UI
+
+[33mcommit e9af20cf3c77c091dd19d2162081c1cf33322906[m
+Merge: 9af1db3 fb11d35
+Author: yuvaphalle <yuva.phalle@gmail.com>
+Date:   Sun Feb 2 00:13:18 2020 +0300
+
+    merging
+
+[33mcommit fb11d3570991a0d34adc1349f29875e6574735bb[m
+Author: yuvaphalle <yuva.phalle@gmail.com>
+Date:   Sun Feb 2 00:08:59 2020 +0300
+
+    Initial commit
+
+[33mcommit 9af1db33c3bcb817d08a097b6f18100c5f8d7ac1[m
+Author: yuvaphalle <yuva.phalle@gmail.com>
+Date:   Sun Feb 2 00:07:42 2020 +0300
+
+    Setting up Laravel
